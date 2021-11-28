@@ -8,7 +8,7 @@ interface IndexPageProps {
 }
 
 export default function IndexPage({ nodes }: IndexPageProps) {
-console.log("nodes : ", nodes);
+// console.log("nodes : ", nodes);
   return (
     <>
       <Head>
