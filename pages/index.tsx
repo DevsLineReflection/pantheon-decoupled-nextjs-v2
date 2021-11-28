@@ -8,7 +8,6 @@ interface IndexPageProps {
 }
 
 export default function IndexPage({ nodes }: IndexPageProps) {
-// console.log("nodes : ", nodes);
   return (
     <>
       <Head>
@@ -19,7 +18,6 @@ export default function IndexPage({ nodes }: IndexPageProps) {
         />
       </Head>
       <div>
-        <h1 className="text-6xl font-black mb-10">Latest Articles.</h1>
 
         {nodes?.length ? (
           nodes.map((node) => (

@@ -8,10 +8,10 @@ export function Layout({ children }) {
 
   return (
     <div className="max-w-screen-md mx-auto px-6">
-      <header>
+      <header style={{backgroundColor: '#333', color: '#f9f9f9', padding: '5px 10px'}}>
         <div className="container mx-auto flex items-center justify-between py-6">
           <Link href="/" passHref>
-            <a className="no-underline text-2xl font-semibold">Brand.</a>
+            <a className="no-underline text-2xl font-semibold">Drupal-nextjs Project</a>
           </Link>
           <nav>
             <ul className={`flex`}>
